@@ -51,7 +51,7 @@
  main {
      padding-top: 5rem;
      background-color: blue;
-     background-image: url(../MULTIMEDIA/moroccan-flower-dark.png);
+     background-image: url(../multimedia/moroccan-flower-dark.png);
      width: 100vw;
  }
 
@@ -61,7 +61,7 @@
      width: 80vw;
      height: 20vh;
      overflow: hidden;
-     background-image: url(../MULTIMEDIA/jewellery.jpg);
+     background-image: url(../multimedia/jewellery.jpg);
      background-size: cover;
      display: flex;
      justify-content: center;
@@ -227,7 +227,7 @@
      justify-content: center;
      align-content: center;
      height: 60vh;
-     background-image: url(../MULTIMEDIA/moroccan-flower-dark.png);
+     background-image: url(../multimedia/moroccan-flower-dark.png);
      color: #89c2d9;
      font-size: 20px;
 
@@ -236,7 +236,7 @@
  .contenedor-legend {
      text-align: center;
      padding: 1rem;
-     background-image: url(../MULTIMEDIA/pyramid.gif);
+     background-image: url(../multimedia/pyramid.gif);
  }
 
  .contenedor-botones {
