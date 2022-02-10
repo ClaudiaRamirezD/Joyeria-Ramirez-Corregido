@@ -13,6 +13,7 @@
 
  body {
      font-family: "Raleway", sans-serif, Arial, Helvetica, sans-serif;
+     overflow-x: hidden;
  }
 
  .hero {
@@ -116,7 +117,6 @@
      border-radius: 180px;
      text-align: center;
      font-size: 1.5rem;
-
      text-decoration: none;
      color: #a9d6e5;
      margin-top: 20px;
@@ -155,6 +155,22 @@
  }
 
  .imagen-port>img {
+     width: 200px;
+     height: 200px;
+     padding: 1.5rem;
+     border-radius: 110px;
+ }
+
+ .imagen-port-promociones {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     height: 100%;
+     width: 100%;
+     object-fit: contain;
+ }
+
+ .imagen-port-promociones>img {
      width: 200px;
      height: 200px;
      padding: 1.5rem;
@@ -214,6 +230,7 @@
      background-image: url(../MULTIMEDIA/moroccan-flower-dark.png);
      color: #89c2d9;
      font-size: 20px;
+
  }
 
  .contenedor-legend {
@@ -270,6 +287,19 @@
      }
 
 
+
+     .imagen-port-promociones {
+         margin: 3rem 1rem;
+     }
+
+     .imagen-port-promociones>img {
+         width: 300px;
+         height: 300px;
+         padding: 1rem;
+         border-radius: 66px;
+     }
+
+
      .sociales {
 
          font-size: 1.8rem;
@@ -307,6 +337,17 @@
          border-radius: 98px;
      }
 
+     .imagen-port-promociones {
+         margin: 5rem 1rem;
+     }
+
+     .imagen-port-promociones>img {
+         width: 300px;
+         height: 300px;
+         padding: 1rem;
+         border-radius: 66px;
+     }
+
      .contenedor-footer {
          display: grid;
          grid-template-columns: 1fr 1fr;
@@ -317,8 +358,10 @@
 
      }
 
-     button{
-         margin-top: 70px
+     .contenedor-formulario {
+         margin-top: 2rem;
      }
+
+
 
  }
