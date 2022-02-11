@@ -27,7 +27,7 @@
  .top-header {
      display: flex;
      justify-content: space-between;
-     padding: 0 1rem;
+     padding: 1rem;
  }
 
  h1 {
@@ -103,29 +103,31 @@
      overflow: hidden;
  }
 
- .button {
-     display: flex;
-     justify-content: center;
-     align-items: center;
+ .button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
  }
-
- button {
-     background: rgb(35, 9, 128);
-     background: radial-gradient(circle, rgba(35, 9, 128, 1) 0%, rgba(3, 13, 34, 1) 100%);
-     width: 50%;
+ .boton-animado{
+   
+     width: fit-content ;
+     background-color: #03045e;
+     padding: .3rem;
+     border: 1px solid aqua;
      border-radius: 180px;
      text-align: center;
      font-size: 1.5rem;
      text-decoration: none;
      color: #a9d6e5;
      margin-top: 20px;
+     transition: .3s ease all;
 
  }
 
- button a {
-     text-decoration: none;
-     color: #a9d6e5;
+ .boton-animado:hover {
+     background-color: aqua;
+     color: #03045e;
  }
 
 
@@ -251,6 +253,14 @@
  a:hover {
      color: #41ead4;
      transform: scale(1.1);
+     font-weight: bold;
+     border-bottom: 1px solid;
+    
+ }
+
+ img:hover {
+     transform: scale(1.1);
+
  }
 
 
